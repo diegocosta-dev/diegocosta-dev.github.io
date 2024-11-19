@@ -30,7 +30,7 @@ const Home = () => {
           <ul className="flex gap-3 flex-wrap">
             {staks.map((stak) => {
               return (
-                <li className="flex items-center px-3 py-1 border rounded-lg border-stone-800 dark:border-slate-50">
+                <li key={stak.toLowerCase()} className="flex items-center px-3 py-1 border rounded-lg border-stone-800 dark:border-slate-50">
                   <p className="uppercase text-lg">{stak}</p>
                 </li>
               )

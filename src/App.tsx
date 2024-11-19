@@ -1,6 +1,6 @@
 import './App.css'
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
@@ -8,11 +8,11 @@ import Home from './pages/Home';
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter future={{ v7_relativeSplatPath: true, v7_startTransition: true }}>
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 };
 
