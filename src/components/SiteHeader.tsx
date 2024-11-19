@@ -19,9 +19,9 @@ const SiteHeader = () => {
       </div>
 
       <div className='flex flex-col gap-2'>
-        <h2 className='font-semibold text-base'>
+        <p className='font-semibold text-base'>
           Hey there! I'm Diego Costa.
-        </h2>
+        </p>
         <p className='max-w-[340px]'>
           I’m a web developer and audiovisual editor, and in my free time, I enjoy catching waves. 🏄
         </p>
