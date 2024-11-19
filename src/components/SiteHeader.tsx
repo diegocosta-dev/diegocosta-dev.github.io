@@ -1,7 +1,31 @@
+import profile from '../assets/Profile.jpg'
+import { Link } from "react-router-dom";
+import Logo from "../icons/Logo";
+import ToggleTheme from './ToggleTheme';
+
 const SiteHeader = () => {
   return (
-    <div id="siteHeader" className="">
-      Site Header
+    <div id="siteHeader" className="flex flex-col gap-6">
+      <div className="flex gap-2 justify-between items-center">
+        <Link to='/'>
+          <img src={profile} alt="Diego Costa" className="rounded-full size-16" />
+        </Link>
+
+        <Link to='/'>
+          <Logo width={80} height={54.12} />
+        </Link>
+
+        <ToggleTheme />
+      </div>
+
+      <div className='flex flex-col gap-2'>
+        <h2 className='font-semibold text-base'>
+          Hey there! I'm Diego Costa.
+        </h2>
+        <p className='max-w-[340px]'>
+          I’m a web developer and audiovisual editor, and in my free time, I enjoy catching waves. 🏄
+        </p>
+      </div>
     </div>
   );
 };

@@ -11,7 +11,7 @@ type BaseLayoutProps = {
 const BaseLayout: React.FC<BaseLayoutProps> = ({ children, title, description }) => {
   return (
     <HelmetProvider>
-      <div id="page-container">
+      <div id="page-container" className="flex flex-col gap-6 p-6 w-full max-w-3xl mx-auto">
         <Helmet>
           <title>{title + " - Diego Costa" || "Diego Costa"}</title>
           <meta name="description" content={description || "Web developer, audiovisual editor and surfer"} />
