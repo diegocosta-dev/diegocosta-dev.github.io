@@ -4,8 +4,8 @@ import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-
 const SiteFooter = () => {
   return (
     <footer id="siteFooter" className="flex flex-col gap-6">
-      <div className="border-b border-stone-950 pb-4 dark:border-zinc-50 ">
-        <h2 className="font-semibold text-base">
+      <div className="border-b border-stone-950 pb-4 dark:border-zinc-50">
+        <h2 className="font-semibold text-lg">
           Contact Me
         </h2>
         <p>

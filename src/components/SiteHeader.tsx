@@ -19,11 +19,11 @@ const SiteHeader = () => {
       </div>
 
       <div className='flex flex-col gap-2'>
-        <p className='font-semibold text-base'>
+        <p className='font-semibold text-lg'>
           Hey there! I'm Diego Costa.
         </p>
-        <p className='max-w-[340px]'>
-          I’m a web developer and audiovisual editor, and in my free time, I enjoy catching waves. 🏄
+        <p>
+          I’m a web developer and in my free time, I enjoy catching waves. 🏄
         </p>
       </div>
     </div>
