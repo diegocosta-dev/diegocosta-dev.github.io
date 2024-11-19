@@ -1,6 +1,6 @@
 const ListProjects = () => {
   return (
-    <ul>
+    <ul className="flex flex-col gap-6">
       <li className="flex flex-col gap-2 p-6 border rounded-lg border-stone-900 dark:border-slate-50">
         <h3 className="font-semibold text-lg">
           Project Name

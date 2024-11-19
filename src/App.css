@@ -1,1 +1,3 @@
-#root {}
+body {
+  @apply bg-slate-50 text-stone-950 dark:text-stone-200 dark:bg-stone-900;
+}
